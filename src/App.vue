@@ -5,7 +5,7 @@ if(webapp){
   console.log("Telegram--start")
   console.log(webapp.initDataUnsafe.user?.id)
   console.log(webapp.initDataUnsafe.user)
-  console.log(window.Telegram.WebAppUser)
+  console.log(window.WebAppUser)
   console.log("----end----")
 }
 
