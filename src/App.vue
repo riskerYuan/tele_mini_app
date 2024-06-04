@@ -6,6 +6,7 @@ if(webapp){
   console.log(webapp.initDataUnsafe.user?.id)
   console.log(webapp.initDataUnsafe.user)
   console.log(window.Telegram)
+  console.log("----end----")
 }
 
 const aaa= "aaa"
