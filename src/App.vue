@@ -3,7 +3,10 @@ const webapp = window.Telegram.WebApp
 if(webapp){
   webapp.ready()
   console.log("Telegram--start")
-  console.log(webapp)
+  console.log(webapp.initDataUnsafe.user?.id)
+  console.log(webapp.initDataUnsafe.user)
+  console.log(window.Telegram)
+  console.log("----end----")
 }
 
 const aaa= "aaa"
