@@ -4,6 +4,7 @@ if(webapp){
   webapp.ready()
   console.log("Telegram--start")
   console.log(webapp)
+  console.log(window.Telegram)
 }
 
 const aaa= "aaa"
